@@ -1,0 +1,6 @@
+Settings of Validation: 
+Allow Type: Decimal
+Data: Between
+Minimum: 10
+Maximum: 50
+IgnoreBlank: true

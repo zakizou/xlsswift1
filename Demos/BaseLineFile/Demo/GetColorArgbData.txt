@@ -1,0 +1,3 @@
+The font color of B2: ARGB=(255,11,61,73)
+The font color of B3: ARGB=(0,247,247,249)
+The font color of B4: ARGB=(255,89,89,89)

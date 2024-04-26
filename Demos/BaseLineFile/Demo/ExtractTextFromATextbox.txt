@@ -1,0 +1,2 @@
+The text extracted from the TextBox is: 
+This is a TextBox. Spire.XLS supports to work with TextBox.

@@ -1,0 +1,2 @@
+B8 Value: 0.012345
+B8 displayed text: 0.01

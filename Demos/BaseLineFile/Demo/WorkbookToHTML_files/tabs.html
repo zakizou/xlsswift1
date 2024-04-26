@@ -1,0 +1,16 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+  <style type="text/css">table{border-collapse:collapse;table-layout:fixed;border-spacing:0;empty-cells:show;}a{text-decoration:none;font-family:Verdana;font-size:13px;font-weight:bold;background-color:rgb(246,246,246);}a:hover{text-decoration:none;}.X1{position:absolute;left:0em;top:0px;}</style>
+  <body alink="#000000" vlink="#000000" link="#000000" bgColor="#808080">
+    <table border="0">
+      <tr class="X1">
+        <td>
+          <a href="sheet1.html" target="top" id="0" onclick="click_method(this.id);">&nbsp;sheet1&nbsp;</a>
+        </td>
+        <td>
+          <a href="sheet2.html" target="top" id="1" onclick="click_method(this.id);">&nbsp;sheet2&nbsp;</a>
+        </td>
+      </tr>
+    </table>
+  </body>
+  <script>var showId="0";var clickId="0";var original_backcolor = ["",""];var click_backcolor = ["",""];document.getElementById(clickId).style.background=click_backcolor[parseInt(clickId)];document.getElementById(clickId).style.borderBottomColor = original_backcolor[parseInt(clickId)]; document.getElementById(clickId).style.borderBottomStyle = "solid"; document.getElementById(clickId).style.borderBottomWidth = "4"; function click_method(id){document.getElementById(showId).style.background=original_backcolor[parseInt(showId)];document.getElementById(showId).style.borderBottomColor = ""; document.getElementById(showId).style.borderBottomStyle = ""; document.getElementById(showId).style.borderBottomWidth = "";  clickId=id;document.getElementById(clickId).style.background=click_backcolor[parseInt(clickId)];document.getElementById(clickId).style.borderBottomColor = original_backcolor[parseInt(clickId)]; document.getElementById(clickId).style.borderBottomStyle = "solid"; document.getElementById(clickId).style.borderBottomWidth = "4"; showId=clickId;};</script>
+</html>

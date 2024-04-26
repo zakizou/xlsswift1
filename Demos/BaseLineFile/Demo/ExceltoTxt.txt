@@ -1,0 +1,32 @@
+﻿
+"Product List"       
+
+
+
+"Online Store Products" Quantity Discount     
+Spire.XLS 1 5%     
+Spire.Doc 2-5 15%     
+Spire.PDF 6-10 20%     
+Spire.DataExport 11-15 25%     
+Spire.Office 16-20 30%     
+Spire.XXX 21+ 35%     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

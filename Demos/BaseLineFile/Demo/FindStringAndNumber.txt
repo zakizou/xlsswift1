@@ -1,0 +1,6 @@
+The address of found text cell is: 'Sheet1'!A16
+The address of found text cell is: 'Sheet1'!A17
+The address of found number cell is: 'Sheet1'!B11
+The address of found number cell is: 'Sheet1'!B12
+The address of found number cell is: 'Sheet1'!B16
+The address of found number cell is: 'Sheet1'!B17

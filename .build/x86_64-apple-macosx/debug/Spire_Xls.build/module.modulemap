@@ -1,0 +1,4 @@
+module Spire_Xls {
+    header "/Users/mac/Projects/TestTeam/XlsSwift/.build/x86_64-apple-macosx/debug/Spire_Xls.build/Spire.Xls-Swift.h"
+    requires objc
+}
