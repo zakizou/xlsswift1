@@ -137,7 +137,7 @@ public protocol IShapeFill: ISpireObject{
    /*
 
    */
-   func get_Picture() throws ->Image
+   func get_Picture() throws ->Stream
 
 
     /*
@@ -203,7 +203,7 @@ public protocol IShapeFill: ISpireObject{
     /*
 
     */
-    func CustomPicture(_ im:Image, _ name:String) throws 
+    func CustomPicture(_ im:Stream, _ name:String) throws 
 
     /*
 
@@ -213,7 +213,7 @@ public protocol IShapeFill: ISpireObject{
     /*
 
     */
-    func CustomTexture(_ im:Image, _ name:String) throws 
+    func CustomTexture(_ im:Stream, _ name:String) throws 
 
     /*
 

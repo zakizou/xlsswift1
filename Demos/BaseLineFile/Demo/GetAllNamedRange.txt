@@ -1,3 +1,0 @@
-NameRange1
-NameRange2
-NameRange3

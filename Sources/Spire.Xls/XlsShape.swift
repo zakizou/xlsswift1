@@ -1450,7 +1450,7 @@ public class XlsShape: XlsObject,IShape,ICloneParent,INamedObject{
             throw exception
         }
     }
-    public func SaveToImage() throws -> Image{
+    public func SaveToImage() throws -> Stream{
         var __exceptionC: spirexls_Exception_t?
 
         let ptr = XlsShape_SaveToImage1(self.getHandle(), &__exceptionC)
@@ -1458,7 +1458,7 @@ public class XlsShape: XlsObject,IShape,ICloneParent,INamedObject{
             let exception = SpireException(exceptionC)
             throw exception
         }
-        return Image(ptr!)
+        return Stream(ptr!)
     }
 }
 

@@ -1120,7 +1120,7 @@ public class XlsWorksheet: XlsWorksheetBase,IInternalWorksheet{
 
     */
 
-    public func ToImage(_ firstRow:Int32, _ firstColumn:Int32, _ lastRow:Int32, _ lastColumn:Int32) throws ->Image{
+    public func ToImage(_ firstRow:Int32, _ firstColumn:Int32, _ lastRow:Int32, _ lastColumn:Int32) throws ->Stream{
         var __exceptionC: spirexls_Exception_t?
         
         let ptr = XlsWorksheet_ToImage(self.getHandle() ,firstRow,firstColumn,lastRow,lastColumn, &__exceptionC)
@@ -1128,7 +1128,7 @@ public class XlsWorksheet: XlsWorksheetBase,IInternalWorksheet{
             let exception = SpireException(exceptionC)
             throw exception
         }
-        return Image(ptr!)
+        return Stream(ptr!)
     }
     
     /*

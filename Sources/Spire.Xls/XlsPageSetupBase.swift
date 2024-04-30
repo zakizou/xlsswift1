@@ -396,14 +396,14 @@ public class XlsPageSetupBase: XlsObject,IPageSetupBase{
 
    */
 
-   public func get_BackgoundImage() throws ->Image{
+   public func get_BackgoundImage() throws ->Stream{
        var __exceptionC: spirexls_Exception_t?
        let ptr = XlsPageSetupBase_get_BackgoundImage(self.getHandle(), &__exceptionC)
         if let exceptionC = __exceptionC {
             let exception = SpireException(exceptionC)
             throw exception
         }
-       return Image(ptr!)
+       return Stream(ptr!)
    }
 
    
@@ -411,7 +411,7 @@ public class XlsPageSetupBase: XlsObject,IPageSetupBase{
 
    */
 
-   public func set_BackgoundImage(_ value:Image) throws {
+   public func set_BackgoundImage(_ value:Stream) throws {
        var __exceptionC: spirexls_Exception_t?
        XlsPageSetupBase_set_BackgoundImage(self.getHandle(), value.getHandle(), &__exceptionC)
         if let exceptionC = __exceptionC {
@@ -673,14 +673,14 @@ public class XlsPageSetupBase: XlsObject,IPageSetupBase{
 
    */
 
-   public func get_CenterFooterImage() throws ->Image{
+   public func get_CenterFooterImage() throws ->Stream{
        var __exceptionC: spirexls_Exception_t?
        let ptr = XlsPageSetupBase_get_CenterFooterImage(self.getHandle(), &__exceptionC)
         if let exceptionC = __exceptionC {
             let exception = SpireException(exceptionC)
             throw exception
         }
-       return Image(ptr!)
+       return Stream(ptr!)
    }
 
    
@@ -688,7 +688,7 @@ public class XlsPageSetupBase: XlsObject,IPageSetupBase{
 
    */
 
-   public func set_CenterFooterImage(_ value:Image) throws {
+   public func set_CenterFooterImage(_ value:Stream) throws {
        var __exceptionC: spirexls_Exception_t?
        XlsPageSetupBase_set_CenterFooterImage(self.getHandle(), value.getHandle(), &__exceptionC)
         if let exceptionC = __exceptionC {
@@ -733,14 +733,14 @@ public class XlsPageSetupBase: XlsObject,IPageSetupBase{
 
    */
 
-   public func get_CenterHeaderImage() throws ->Image{
+   public func get_CenterHeaderImage() throws ->Stream{
        var __exceptionC: spirexls_Exception_t?
        let ptr = XlsPageSetupBase_get_CenterHeaderImage(self.getHandle(), &__exceptionC)
         if let exceptionC = __exceptionC {
             let exception = SpireException(exceptionC)
             throw exception
         }
-       return Image(ptr!)
+       return Stream(ptr!)
    }
 
    
@@ -748,7 +748,7 @@ public class XlsPageSetupBase: XlsObject,IPageSetupBase{
 
    */
 
-   public func set_CenterHeaderImage(_ value:Image) throws {
+   public func set_CenterHeaderImage(_ value:Stream) throws {
        var __exceptionC: spirexls_Exception_t?
        XlsPageSetupBase_set_CenterHeaderImage(self.getHandle(), value.getHandle(), &__exceptionC)
         if let exceptionC = __exceptionC {
@@ -1474,14 +1474,14 @@ public class XlsPageSetupBase: XlsObject,IPageSetupBase{
 
    */
 
-   public func get_LeftFooterImage() throws ->Image{
+   public func get_LeftFooterImage() throws ->Stream{
        var __exceptionC: spirexls_Exception_t?
        let ptr = XlsPageSetupBase_get_LeftFooterImage(self.getHandle(), &__exceptionC)
         if let exceptionC = __exceptionC {
             let exception = SpireException(exceptionC)
             throw exception
         }
-       return Image(ptr!)
+       return Stream(ptr!)
    }
 
    
@@ -1489,7 +1489,7 @@ public class XlsPageSetupBase: XlsObject,IPageSetupBase{
 
    */
 
-   public func set_LeftFooterImage(_ value:Image) throws {
+   public func set_LeftFooterImage(_ value:Stream) throws {
        var __exceptionC: spirexls_Exception_t?
        XlsPageSetupBase_set_LeftFooterImage(self.getHandle(), value.getHandle(), &__exceptionC)
         if let exceptionC = __exceptionC {
@@ -1534,14 +1534,14 @@ public class XlsPageSetupBase: XlsObject,IPageSetupBase{
 
    */
 
-   public func get_LeftHeaderImage() throws ->Image{
+   public func get_LeftHeaderImage() throws ->Stream{
        var __exceptionC: spirexls_Exception_t?
        let ptr = XlsPageSetupBase_get_LeftHeaderImage(self.getHandle(), &__exceptionC)
         if let exceptionC = __exceptionC {
             let exception = SpireException(exceptionC)
             throw exception
         }
-       return Image(ptr!)
+       return Stream(ptr!)
    }
 
    
@@ -1549,7 +1549,7 @@ public class XlsPageSetupBase: XlsObject,IPageSetupBase{
 
    */
 
-   public func set_LeftHeaderImage(_ value:Image) throws {
+   public func set_LeftHeaderImage(_ value:Stream) throws {
        var __exceptionC: spirexls_Exception_t?
        XlsPageSetupBase_set_LeftHeaderImage(self.getHandle(), value.getHandle(), &__exceptionC)
         if let exceptionC = __exceptionC {
@@ -1872,14 +1872,14 @@ public class XlsPageSetupBase: XlsObject,IPageSetupBase{
 
    */
 
-   public func get_RightFooterImage() throws ->Image{
+   public func get_RightFooterImage() throws ->Stream{
        var __exceptionC: spirexls_Exception_t?
        let ptr = XlsPageSetupBase_get_RightFooterImage(self.getHandle(), &__exceptionC)
         if let exceptionC = __exceptionC {
             let exception = SpireException(exceptionC)
             throw exception
         }
-       return Image(ptr!)
+       return Stream(ptr!)
    }
 
    
@@ -1887,7 +1887,7 @@ public class XlsPageSetupBase: XlsObject,IPageSetupBase{
 
    */
 
-   public func set_RightFooterImage(_ value:Image) throws {
+   public func set_RightFooterImage(_ value:Stream) throws {
        var __exceptionC: spirexls_Exception_t?
        XlsPageSetupBase_set_RightFooterImage(self.getHandle(), value.getHandle(), &__exceptionC)
         if let exceptionC = __exceptionC {
@@ -1932,14 +1932,14 @@ public class XlsPageSetupBase: XlsObject,IPageSetupBase{
 
    */
 
-   public func get_RightHeaderImage() throws ->Image{
+   public func get_RightHeaderImage() throws ->Stream{
        var __exceptionC: spirexls_Exception_t?
        let ptr = XlsPageSetupBase_get_RightHeaderImage(self.getHandle(), &__exceptionC)
         if let exceptionC = __exceptionC {
             let exception = SpireException(exceptionC)
             throw exception
         }
-       return Image(ptr!)
+       return Stream(ptr!)
    }
 
    
@@ -1947,7 +1947,7 @@ public class XlsPageSetupBase: XlsObject,IPageSetupBase{
 
    */
 
-   public func set_RightHeaderImage(_ value:Image) throws {
+   public func set_RightHeaderImage(_ value:Stream) throws {
        var __exceptionC: spirexls_Exception_t?
        XlsPageSetupBase_set_RightHeaderImage(self.getHandle(), value.getHandle(), &__exceptionC)
         if let exceptionC = __exceptionC {

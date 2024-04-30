@@ -72,14 +72,14 @@ public class IOleObject: SpireObject{
         <value>The picture.</value>
    */
 
-   public func get_Picture() throws ->Image{
+   public func get_Picture() throws ->Stream{
        var __exceptionC: spirexls_Exception_t?
        let ptr = IOleObject_get_Picture(self.getHandle(), &__exceptionC)
         if let exceptionC = __exceptionC {
             let exception = SpireException(exceptionC)
             throw exception
         }
-       return Image(ptr!)
+       return Stream(ptr!)
    }
 
     

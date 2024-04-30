@@ -47,13 +47,13 @@ public protocol IPageSetupBase: IExcelApplication{
    /*
 
    */
-   func get_CenterFooterImage() throws ->Image
+   func get_CenterFooterImage() throws ->Stream
 
 
    /*
 
    */
-   func set_CenterFooterImage(_ value:Image) throws 
+   func set_CenterFooterImage(_ value:Stream) throws 
 
 
     /*
@@ -69,13 +69,13 @@ public protocol IPageSetupBase: IExcelApplication{
    /*
 
    */
-   func get_CenterHeaderImage() throws ->Image
+   func get_CenterHeaderImage() throws ->Stream
 
 
    /*
 
    */
-   func set_CenterHeaderImage(_ value:Image) throws 
+   func set_CenterHeaderImage(_ value:Stream) throws 
 
 
     /*
@@ -161,13 +161,13 @@ public protocol IPageSetupBase: IExcelApplication{
    /*
 
    */
-   func get_LeftFooterImage() throws ->Image
+   func get_LeftFooterImage() throws ->Stream
 
 
    /*
 
    */
-   func set_LeftFooterImage(_ value:Image) throws 
+   func set_LeftFooterImage(_ value:Stream) throws 
 
 
     /*
@@ -183,13 +183,13 @@ public protocol IPageSetupBase: IExcelApplication{
    /*
 
    */
-   func get_LeftHeaderImage() throws ->Image
+   func get_LeftHeaderImage() throws ->Stream
 
 
    /*
 
    */
-   func set_LeftHeaderImage(_ value:Image) throws 
+   func set_LeftHeaderImage(_ value:Stream) throws 
 
 
     /*
@@ -285,13 +285,13 @@ public protocol IPageSetupBase: IExcelApplication{
    /*
 
    */
-   func get_RightFooterImage() throws ->Image
+   func get_RightFooterImage() throws ->Stream
 
 
    /*
 
    */
-   func set_RightFooterImage(_ value:Image) throws 
+   func set_RightFooterImage(_ value:Stream) throws 
 
 
     /*
@@ -307,13 +307,13 @@ public protocol IPageSetupBase: IExcelApplication{
    /*
 
    */
-   func get_RightHeaderImage() throws ->Image
+   func get_RightHeaderImage() throws ->Stream
 
 
    /*
 
    */
-   func set_RightHeaderImage(_ value:Image) throws 
+   func set_RightHeaderImage(_ value:Stream) throws 
 
 
     /*
@@ -349,13 +349,13 @@ public protocol IPageSetupBase: IExcelApplication{
    /*
 
    */
-   func get_BackgoundImage() throws ->Image
+   func get_BackgoundImage() throws ->Stream
 
 
    /*
 
    */
-   func set_BackgoundImage(_ value:Image) throws 
+   func set_BackgoundImage(_ value:Stream) throws 
 
 
 }

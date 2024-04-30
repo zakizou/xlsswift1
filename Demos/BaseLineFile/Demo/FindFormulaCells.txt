@@ -1,2 +1,0 @@
-The address of found cell is: 'Sheet1'!B11
-The address of found cell is: 'Sheet1'!B12

@@ -53,8 +53,8 @@ func getObjectArray<T:SpireObject>(from intPtrArr: IntPtrArray) throws -> [T] {
 }
 typealias SpireObjectArray = (IntPtrArray) throws -> [SpireObject]
 let getSpireObjectArray: SpireObjectArray = getObjectArray
-typealias ImageArray = (IntPtrArray) throws -> [Image]
-let getImageArray: ImageArray = getObjectArray
+typealias StreamArray = (IntPtrArray) throws -> [Stream]
+let getStreamArray: StreamArray = getObjectArray
 typealias ByteArray = (IntPtrArray) throws -> [SpireByte]
 let getByteArray: ByteArray = getObjectArray
 

@@ -221,14 +221,14 @@ public class XlsBitmapShape: XlsShape,IPictureShape{
 
    */
 
-   public func get_Picture() throws ->Image{
+   public func get_Picture() throws ->Stream{
        var __exceptionC: spirexls_Exception_t?
        let ptr = XlsBitmapShape_get_Picture(self.getHandle(), &__exceptionC)
         if let exceptionC = __exceptionC {
             let exception = SpireException(exceptionC)
             throw exception
         }
-       return Image(ptr!)
+       return Stream(ptr!)
    }
 
    
@@ -236,7 +236,7 @@ public class XlsBitmapShape: XlsShape,IPictureShape{
 
    */
 
-   public func set_Picture(_ value:Image) throws {
+   public func set_Picture(_ value:Stream) throws {
        var __exceptionC: spirexls_Exception_t?
        XlsBitmapShape_set_Picture(self.getHandle(), value.getHandle(), &__exceptionC)
         if let exceptionC = __exceptionC {

@@ -1,8 +1,0 @@
-'Chart'!A2
-The value of the data point is 76
-'Chart'!B2
-The value of the data point is 90
-'Chart'!C2
-The value of the data point is 56
-'Chart'!D2
-The value of the data point is 78

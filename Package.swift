@@ -25,8 +25,5 @@ let package = Package(
             name: "Spire.Xls",
             dependencies: ["xlslib","skiasharp"]
         ),
-        .testTarget(
-            name: "XlsCase",
-            dependencies: ["Spire.Xls"]),
     ]
 )

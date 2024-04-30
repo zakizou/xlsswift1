@@ -12,7 +12,7 @@ public protocol IPictureShape: IShape{
    /*
 
    */
-   func get_Picture() throws ->Image
+   func get_Picture() throws ->Stream
 
 
     /*

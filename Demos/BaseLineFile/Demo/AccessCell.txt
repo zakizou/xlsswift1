@@ -1,3 +1,0 @@
-Value of range1: Spire.XLS for .NET
-Value of range2: Professional Excel .NET API 
-Value of range3: Standalone .NET Excel Development Master

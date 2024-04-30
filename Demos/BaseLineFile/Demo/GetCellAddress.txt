@@ -1,4 +1,0 @@
-Address of range: A1:B5
-Cell count of range: 10
-Address of entire column of the range: A1:B1048576
-Address of entire row of the range A1:XFD1

@@ -8,11 +8,12 @@
 			<key>HeadersPath</key>
 			<string>Headers</string>
 			<key>LibraryIdentifier</key>
-			<string>macos-x86_64</string>
+			<string>macos-arm64_x86_64</string>
 			<key>LibraryPath</key>
 			<string>libSpireXlsBase.dylib</string>
 			<key>SupportedArchitectures</key>
 			<array>
+				<string>arm64</string>
 				<string>x86_64</string>
 			</array>
 			<key>SupportedPlatform</key>
@@ -23,8 +24,5 @@
 	<string>XFWK</string>
 	<key>XCFrameworkFormatVersion</key>
 	<string>1.0</string>
-                <key>NSFontProviderAccessUsageDescription</key>
-                <string>Explanation of why your package needs access to fonts</string>
-
 </dict>
 </plist>

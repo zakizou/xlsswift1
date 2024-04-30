@@ -1,2 +1,0 @@
-Get the specific named range NameRange2 by index
-Get the specific named range NameRange3 by name

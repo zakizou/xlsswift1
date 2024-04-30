@@ -1,3 +1,0 @@
-No cell contains the text
-The address of found number cell is: 'Sheet1'!B11
-The address of found number cell is: 'Sheet1'!B12

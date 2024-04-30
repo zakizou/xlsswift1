@@ -1,4 +1,0 @@
-Crop position: Left 360
-Crop position: Top 205
-Crop position: Width 181
-Crop position: Height 169

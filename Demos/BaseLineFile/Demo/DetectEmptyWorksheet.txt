@@ -1,2 +1,0 @@
-The first worksheet is empty or not: false
-The second worksheet is empty or not: true

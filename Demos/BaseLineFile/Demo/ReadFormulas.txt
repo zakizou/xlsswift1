@@ -1,2 +1,0 @@
-Formula：=B12+C12
-Value：66.0

@@ -149,7 +149,7 @@ public class PicturesCollection: XlsPicturesCollection{
 
 //    */
 
-//    public func Add(_ topRow:Int32, _ leftColumn:Int32, _ image:Image, _ imageFormat:ImageFormatType) throws ->ExcelPicture{
+//    public func Add(_ topRow:Int32, _ leftColumn:Int32, _ image:Stream, _ imageFormat:ImageFormatType) throws ->ExcelPicture{
 //        var __exceptionC: spirexls_Exception_t?
 //        let intPtrimage = image.getHandle()
 //        let enumimageFormat = spirexls_ImageFormatType_t(rawValue:imageFormat.rawValue)!

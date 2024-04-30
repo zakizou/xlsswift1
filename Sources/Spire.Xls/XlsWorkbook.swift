@@ -893,7 +893,7 @@ public class XlsWorkbook: XlsObject,IWorkbook{
 
    */
 
-   public func SaveAsImages(_ dpiX:Float, _ dpiY:Float) throws -> [Image]{
+   public func SaveAsImages(_ dpiX:Float, _ dpiY:Float) throws -> [Stream]{
        var __exceptionC: spirexls_Exception_t?
        
        let __returnValueC = XlsWorkbook_SaveAsImages(self.getHandle() ,dpiX,dpiY, &__exceptionC)
@@ -901,7 +901,7 @@ public class XlsWorkbook: XlsObject,IWorkbook{
             let exception = SpireException(exceptionC)
             throw exception
         }
-       return try getImageArray(__returnValueC)
+       return try getStreamArray(__returnValueC)
    }
 
     
@@ -909,7 +909,7 @@ public class XlsWorkbook: XlsObject,IWorkbook{
 
     */
 
-    public func SaveAsImages(_ sheetIndex:Int32, _ dpiX:Float, _ dpiY:Float) throws ->Image{
+    public func SaveAsImages(_ sheetIndex:Int32, _ dpiX:Float, _ dpiY:Float) throws ->Stream{
         var __exceptionC: spirexls_Exception_t?
         
         let ptr = XlsWorkbook_SaveAsImagesSDD(self.getHandle() ,sheetIndex,dpiX,dpiY, &__exceptionC)
@@ -917,7 +917,7 @@ public class XlsWorkbook: XlsObject,IWorkbook{
             let exception = SpireException(exceptionC)
             throw exception
         }
-        return Image(ptr!)
+        return Stream(ptr!)
     }
 //    
 //    /*
@@ -940,7 +940,7 @@ public class XlsWorkbook: XlsObject,IWorkbook{
 
     */
 
-    public func SaveAsImages(_ sheetIndex:Int32, _ firstRow:Int32, _ firstColumn:Int32, _ lastRow:Int32, _ lastColumn:Int32, _ dpiX:Float, _ dpiY:Float) throws ->Image{
+    public func SaveAsImages(_ sheetIndex:Int32, _ firstRow:Int32, _ firstColumn:Int32, _ lastRow:Int32, _ lastColumn:Int32, _ dpiX:Float, _ dpiY:Float) throws ->Stream{
         var __exceptionC: spirexls_Exception_t?
         
         let ptr = XlsWorkbook_SaveAsImagesSFFLLDD(self.getHandle() ,sheetIndex,firstRow,firstColumn,lastRow,lastColumn,dpiX,dpiY, &__exceptionC)
@@ -948,7 +948,7 @@ public class XlsWorkbook: XlsObject,IWorkbook{
             let exception = SpireException(exceptionC)
             throw exception
         }
-        return Image(ptr!)
+        return Stream(ptr!)
     }
     
     /*
@@ -1005,7 +1005,7 @@ public class XlsWorkbook: XlsObject,IWorkbook{
 
     */
 
-    public func SaveChartAsImage(_ worksheet:Worksheet, _ chartIndex:Int32, _ imageOrPrintOptions:ConverterSetting) throws ->Image{
+    public func SaveChartAsImage(_ worksheet:Worksheet, _ chartIndex:Int32, _ imageOrPrintOptions:ConverterSetting) throws ->Stream{
         var __exceptionC: spirexls_Exception_t?
         let intPtrworksheet = worksheet.getHandle()
         let intPtrimageOrPrintOptions = imageOrPrintOptions.getHandle()
@@ -1015,7 +1015,7 @@ public class XlsWorkbook: XlsObject,IWorkbook{
             let exception = SpireException(exceptionC)
             throw exception
         }
-        return Image(ptr!)
+        return Stream(ptr!)
     }
     
     /*

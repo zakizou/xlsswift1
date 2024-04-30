@@ -479,14 +479,14 @@ public class XlsShapeFill: XlsObject,IShapeFill{
 
    */
 
-   public func get_Picture() throws ->Image{
+   public func get_Picture() throws ->Stream{
        var __exceptionC: spirexls_Exception_t?
        let ptr = XlsShapeFill_get_Picture(self.getHandle(), &__exceptionC)
         if let exceptionC = __exceptionC {
             let exception = SpireException(exceptionC)
             throw exception
         }
-       return Image(ptr!)
+       return Stream(ptr!)
    }
 
     
@@ -711,7 +711,7 @@ public class XlsShapeFill: XlsObject,IShapeFill{
 
     */
 
-    public func CustomPicture(_ im:Image, _ name:String) throws {
+    public func CustomPicture(_ im:Stream, _ name:String) throws {
         var __exceptionC: spirexls_Exception_t?
         let intPtrim = im.getHandle()
         let ptrname = StringToUnsafePointer(name)
@@ -748,7 +748,7 @@ public class XlsShapeFill: XlsObject,IShapeFill{
 
     */
 
-    public func CustomTexture(_ im:Image, _ name:String) throws {
+    public func CustomTexture(_ im:Stream, _ name:String) throws {
         var __exceptionC: spirexls_Exception_t?
         let intPtrim = im.getHandle()
         let ptrname = StringToUnsafePointer(name)

@@ -1,3 +1,0 @@
-Is input 5 a valid value for this Cell: false
-Is input 45 a valid value for this Cell: true
-Is input 85 a valid value for this Cell: false

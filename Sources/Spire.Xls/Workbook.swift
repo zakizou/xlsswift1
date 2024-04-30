@@ -160,7 +160,7 @@ public class Workbook: SpireObject{
     <param name="chartIndex">chart index</param>
     */
 
-    public func SaveChartAsImage(_ worksheet:Worksheet, _ chartIndex:Int32) throws ->Image{
+    public func SaveChartAsImage(_ worksheet:Worksheet, _ chartIndex:Int32) throws ->Stream{
         var __exceptionC: spirexls_Exception_t?
         let intPtrworksheet = worksheet.getHandle()
 
@@ -169,7 +169,7 @@ public class Workbook: SpireObject{
             let exception = SpireException(exceptionC)
             throw exception
         }
-        return Image(ptr!)
+        return Stream(ptr!)
     }
     
     /*

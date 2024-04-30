@@ -1,2 +1,0 @@
-The second row is hidden.
-The second column is not hidden.

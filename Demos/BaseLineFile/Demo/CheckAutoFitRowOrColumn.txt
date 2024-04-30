@@ -1,2 +1,0 @@
-The second row is not auto fit row height.
-The second column is auto fit column width.
